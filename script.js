@@ -44,8 +44,8 @@ function validateSyntax() {
 
 // Helper function to check if a character is a letter
 function isLetter(char) {
-    // Define a string containing all lowercase and uppercase letters
-    const alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    // Check if the character is included in the alphabet string
+    // Define a string containing all lowercase and uppercase letters and characters
+    const alphabet =' !"#$%&\'()*+,-./:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~';
+    // Check if the character is included in the alphabet string or character
     return alphabet.includes(char);
 }
